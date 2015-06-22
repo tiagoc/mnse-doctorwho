@@ -5,12 +5,18 @@
   overflow: hidden;
 }
 
+.centre {
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+
 #fancytitle{
   text-align: center;
   color: #fff;
   text-shadow: 0px 1px 1px #4d4d4d;
-	color: #222;
-	font: 80px 'LeagueGothicRegular';
+  color: #222;
+  font: 80px 'LeagueGothicRegular';
   font-size: 750%;
 }
 
@@ -156,7 +162,7 @@ body{
 }
 
 .roof-panel.b{
- -webkit-transform: rotateY(90deg) translateZ(70px);
+  -webkit-transform: rotateY(90deg) translateZ(70px);
 }
 
 .roof-panel.c{
@@ -248,7 +254,7 @@ body{
 }
 
 .floor-panel.b{
- -webkit-transform: rotateY(90deg) translateZ(110px);
+  -webkit-transform: rotateY(90deg) translateZ(110px);
 }
 
 .floor-panel.c{
