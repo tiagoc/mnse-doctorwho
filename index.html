@@ -17,6 +17,15 @@
   <script>
   if (/mobile/i.test(navigator.userAgent)) document.documentElement.className += ' w-mobile';
   </script>
+  <script type="text/javascript" charset="utf-8">
+  function showHide(elementid){
+    if (document.getElementById(elementid).style.display == 'none'){
+      document.getElementById(elementid).style.display = '';
+    } else {
+      document.getElementById(elementid).style.display = 'none';
+    }
+  }
+  </script>
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
 </head>
@@ -615,7 +624,25 @@
               <div>
                 <div class="fotter-text"><p class="fotter-quote">Academic project, no copyright infringement meant.</p>
                   <p class="copyright-area">Developed by Tiago Cruzeiro, Theme based on Elegance by &nbsp;<a href="https://carinotech.com" title="Carino Technologies" target="_blank">CARINO TECHNOLOGIES</a></p></div>
-                </div>
+
+
+                    <div><a href="javascript:showHide('div_pers');">Show Personas</a></div>
+                    <div class="centre" id="div_pers" style="display:none">
+                      <p>Name: Tiago Smith </p>
+                      <p>Age: 24 </p>
+                      <p>Ocupation: Student </p>
+                      <p>Location: Vila Nova de Anha, Viana do Castelo PORTUGAL</p>
+                      <p>Type: Primary Participation</p>
+                      <p>Scenarios:</p>
+                        <p>- Find information about Doctor Who.</p>
+                        <p>- Find Doctor Who Media</p>
+                        <p>- Just want some nice and clean information.</p>
+                      <p>Frustrations:</p>
+                        <p>- Few responsive websites for mobile.</p>
+                      <p>Psychological Profile: A young student with a passion for british television. Likes to watch some foreign series when he's not working or studying</p>
+                    </div>
+
+              </div>
               </div>
             </div>
           </div>
